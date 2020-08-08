@@ -5,18 +5,24 @@
         "url_png_logo": "https://raw.githubusercontent.com/fib0618/pool/master/logo.png",
         "location": "Perth, Australia",
         "social": {
-            "twitter_handle": "https://twitter.com/fib0618",
-            "telegram_handle": "https://t.me/power_cardano_poo",
+            "twitter_handle": "",
+            "telegram_handle": "",
             "facebook_handle": "",
             "youtube_handle": "",
             "twitch_handle": "",
             "discord_handle": "",
             "github_handle": ""
         },
+        "company": {
+            "name": "Company Name",
+            "addr": "Street, Number"
+        },
         "about": {
-            "me": "Contributing the new generation of finance, trust and identity",
-            "server": "intel i5 on a NBN connection..",
-        }
+            "me": "...",
+            "server": "Test",
+            "company": "..."
+        },
+        "rss": "http(s) url to valid RSS feed"
     },
     "my-pool-ids": [
        "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
@@ -25,6 +31,6 @@
        "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
     ],
     "telegram-admin-handle": [
-        "https://twitter.com/fib0618"
+        "mnmnmnmnnmn"
     ]
 }
