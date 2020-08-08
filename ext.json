@@ -5,7 +5,7 @@
         "url_png_logo": "https://raw.githubusercontent.com/fib0618/pool/master/logo.png",
         "location": "Perth, Australia",
         "social": {
-            "twitter_handle": "AdapoolsO",
+            "twitter_handle": "",
             "telegram_handle": "https://t.me/power_cardano_poo",
             "facebook_handle": "",
             "youtube_handle": "",
@@ -15,7 +15,7 @@
         },
         "about": {
             "me": "Small business owner of the generation of finance, trust and identity",
-            "server": "LOW POWer PC on a NBN connection..",
+            "server": "LOW Power PC on a NBN connection..",
         },
         "rss": "http(s) url to valid RSS feed"
     },
