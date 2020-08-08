@@ -1,29 +1,42 @@
 {
+    "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https:\/\/raw.githubusercontent.com\/cardanians\/adapools.org\/master\/example-meta.json",
     "info": {
         "url_png_icon_64x64": "https://raw.githubusercontent.com/fib0618/pool/master/logo_64x64.png",
         "url_png_logo": "https://raw.githubusercontent.com/fib0618/pool/master/logo.png",
         "location": "Perth, Australia",
         "social": {
-            "twitter_handle": "https://twitter.com/fib0618",
-            "telegram_handle": "https://t.me/power_cardano",
+            "twitter_handle": "",
+            "telegram_handle": "",
             "facebook_handle": "",
             "youtube_handle": "",
             "twitch_handle": "",
             "discord_handle": "",
             "github_handle": ""
         },
+        "company": {
+            "name": "..",
+            "addr": ".., ..",
+            "city": "Perth",
+            "country": "Australia",
+            "company_id": "..",
+            "vat_id": ""
+        },
         "about": {
-            "me": "Contributing the new generation of finance, trust and identity",
-            "server": "intel i5 on a NBN connection..",
-        }
+            "me": "...",
+            "server": "..",
+            "company": "..."
+        },
+        "rss": "http(s) url to valid RSS feed"
     },
     "my-pool-ids": [
-       "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
+        "0f292fcaa02b8b2f9b3c8f9fd8e0bb21abedb692a6d5058df3ef2735",
+        "618ab17ec8ea7239b4ac0c826b667c599489e25524ce74841a29d510"
     ],
     "when-satured-then-recommend": [
-       "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
+        "0f292fcaa02b8b2f9b3c8f9fd8e0bb21abedb692a6d5058df3ef2735",
+        "618ab17ec8ea7239b4ac0c826b667c599489e25524ce74841a29d510"
     ],
     "telegram-admin-handle": [
-        "https://twitter.com/fib0618"
+        "mnmnmnmnnmn"
     ]
 }
