@@ -1,0 +1,25 @@
+{
+    "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https:\/\/raw.githubusercontent.com\/cardanians\/adapools.org\/master\/example-meta.json",
+    "info": {
+        "url_png_icon_64x64": "https://raw.githubusercontent.com/fib0618/pool/master/logo_64x64.png",
+        "url_png_logo": "https://raw.githubusercontent.com/fib0618/pool/master/logo.png",
+        "location": "Perth, Australia",
+        "social": {
+            "twitter_handle": "https://twitter.com/fib0618",
+            "telegram_handle": "https://t.me/power_cardano_poo",
+        },
+        "about": {
+            "me": "Contributing the new generation of finance, trust and identity",
+            "server": "intel i5 on a NBN connection..",
+        }
+    },
+    "my-pool-ids": [
+       "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
+    ],
+    "when-satured-then-recommend": [
+       "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
+    ],
+    "telegram-admin-handle": [
+        "https://twitter.com/fib0618"
+    ]
+}
