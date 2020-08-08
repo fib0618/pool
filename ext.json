@@ -5,8 +5,8 @@
         "url_png_logo": "https://raw.githubusercontent.com/fib0618/pool/master/logo.png",
         "location": "Perth, Australia",
         "social": {
-            "twitter_handle": "",
-            "telegram_handle": "",
+            "twitter_handle": "https://twitter.com/power_cardano",
+            "telegram_handle": "https://t.me/power_cardano",
             "facebook_handle": "",
             "youtube_handle": "",
             "twitch_handle": "",
@@ -16,8 +16,8 @@
         "company": {
             "name": "..",
             "addr": ".., ..",
-            "city": "Perth",
-            "country": "Australia",
+            "city": "",
+            "country": "",
             "company_id": "..",
             "vat_id": ""
         },
