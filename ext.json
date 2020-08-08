@@ -18,9 +18,9 @@
             "addr": "Street, Number"
         },
         "about": {
-            "me": "...",
+            "me": "TEST",
             "server": "Test",
-            "company": "..."
+            "company": "TEST"
         },
         "rss": "http(s) url to valid RSS feed"
     },
