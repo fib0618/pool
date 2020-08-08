@@ -2,5 +2,6 @@
 "name":"POWER",
 "ticker":"POWER",
 "description":"Contributing to the decentralised future",
-"homepage":"https://fib0618.wixsite.com/powercardanopool"
+"homepage":"https://fib0618.wixsite.com/powercardanopool",
+"extended": "https://raw.githubusercontent.com/fib0618/pool/master/extended.json"
 }
