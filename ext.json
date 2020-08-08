@@ -1,42 +1,33 @@
 {
     "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https:\/\/raw.githubusercontent.com\/cardanians\/adapools.org\/master\/example-meta.json",
     "info": {
-        "url_png_icon_64x64": "http(s) url to pool icon",
-        "url_png_logo": "http(s) url to pool logo",
-        "location": "London, England",
+        "url_png_icon_64x64": "https://raw.githubusercontent.com/fib0618/pool/master/logo_64x64.png",
+        "url_png_logo": "https://raw.githubusercontent.com/fib0618/pool/master/logo.png",
+        "location": "Perth, Australia",
         "social": {
             "twitter_handle": "AdapoolsO",
-            "telegram_handle": "adapools_ops",
+            "telegram_handle": "https://t.me/power_cardano_poo",
             "facebook_handle": "",
             "youtube_handle": "",
             "twitch_handle": "",
             "discord_handle": "",
             "github_handle": ""
         },
-        "company": {
-            "name": "Company Name",
-            "addr": "Street, Number",
-            "city": "London",
-            "country": "England",
-            "company_id": "123456789",
-            "vat_id": "GB123456789"
-        },
         "about": {
-            "me": "...",
-            "server": "Raspberry Pi Hosted at my Home in London 100MB up\/down, solar energy.",
-            "company": "..."
+            "me": "Small business owner of the generation of finance, trust and identity",
+            "server": "intel i5 on a NBN connection..",
         },
         "rss": "http(s) url to valid RSS feed"
     },
     "my-pool-ids": [
-        "0f292fcaa02b8b2f9b3c8f9fd8e0bb21abedb692a6d5058df3ef2735",
-        "618ab17ec8ea7239b4ac0c826b667c599489e25524ce74841a29d510"
+        "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa",
+        "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
     ],
     "when-satured-then-recommend": [
-        "0f292fcaa02b8b2f9b3c8f9fd8e0bb21abedb692a6d5058df3ef2735",
-        "618ab17ec8ea7239b4ac0c826b667c599489e25524ce74841a29d510"
+        "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa",
+        "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
     ],
     "telegram-admin-handle": [
-        "mnmnmnmnnmn"
+        "https://t.me/power_cardano_poo"
     ]
 }
