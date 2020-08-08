@@ -5,7 +5,7 @@
         "url_png_logo": "https://raw.githubusercontent.com/fib0618/pool/master/logo.png",
         "location": "Perth, Australia",
         "social": {
-            "twitter_handle": "",
+            "twitter_handle": "https://twitter.com/fib0618",
             "telegram_handle": "https://t.me/power_cardano_poo",
             "facebook_handle": "",
             "youtube_handle": "",
@@ -14,20 +14,17 @@
             "github_handle": ""
         },
         "about": {
-            "me": "Small business owner of the generation of finance, trust and identity",
-            "server": "LOW Power PC on a NBN connection..",
-        },
-        "rss": "http(s) url to valid RSS feed"
+            "me": "Contributing the new generation of finance, trust and identity",
+            "server": "intel i5 on a NBN connection..",
+        }
     },
     "my-pool-ids": [
-        "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa",
-        "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
+       "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
     ],
     "when-satured-then-recommend": [
-        "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa",
-        "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
+       "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
     ],
     "telegram-admin-handle": [
-        "https://t.me/power_cardano_poo"
+        "https://twitter.com/fib0618"
     ]
 }
