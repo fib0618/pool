@@ -5,38 +5,28 @@
         "url_png_logo": "https://raw.githubusercontent.com/fib0618/pool/master/logo.png",
         "location": "Perth, Australia",
         "social": {
-            "twitter_handle": "https://twitter.com/power_cardano",
-            "telegram_handle": "https://t.me/power_cardano",
+            "twitter_handle": "power_cardano",
+            "telegram_handle": "power_cardano",
             "facebook_handle": "",
             "youtube_handle": "",
             "twitch_handle": "",
             "discord_handle": "",
             "github_handle": ""
         },
-        "company": {
-            "name": "..",
-            "addr": ".., ..",
-            "city": "",
-            "country": "",
-            "company_id": "..",
-            "vat_id": ""
-        },
         "about": {
-            "me": "...",
-            "server": "..",
-            "company": "..."
+            "me": "Involved in the project since 2017 as a investor, now contributing to the network and following Charles vision",
+            "server": "intel i7 on NBN highspeed connection"
         },
         "rss": "http(s) url to valid RSS feed"
     },
     "my-pool-ids": [
-        "0f292fcaa02b8b2f9b3c8f9fd8e0bb21abedb692a6d5058df3ef2735",
-        "618ab17ec8ea7239b4ac0c826b667c599489e25524ce74841a29d510"
+        "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
     ],
     "when-satured-then-recommend": [
-        "0f292fcaa02b8b2f9b3c8f9fd8e0bb21abedb692a6d5058df3ef2735",
-        "618ab17ec8ea7239b4ac0c826b667c599489e25524ce74841a29d510"
+        "",
+        ""
     ],
     "telegram-admin-handle": [
-        "mnmnmnmnnmn"
+        "power_cardano"
     ]
 }
