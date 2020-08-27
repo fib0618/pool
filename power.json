@@ -1,7 +1,7 @@
 {
 "name":"POWER to you kids",
 "ticker":"POWER",
-"description":"I am Ada's Dad, she is very little. I'm building this stake pool for my daughter Ada, patiently waiting for the day that she takes over this pool and become a part of the Cardano Ecosystem",
+"description":"I am Ada's Dad, she is very little. I'm building this stake pool for my daughter Ada",
 "homepage":"https://fib0618.wixsite.com/powercardanopool",
 "extended":"https://raw.githubusercontent.com/fib0618/pool/master/ext.json"
 }
