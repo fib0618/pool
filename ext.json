@@ -1,9 +1,9 @@
 {
-    "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https:\/\/raw.githubusercontent.com\/cardanians\/adapools.org\/master\/example-meta.json",
+    "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https://raw.githubusercontent.com/cardanians/adapools.org/master/example-meta.json",
     "info": {
         "url_png_icon_64x64": "https://raw.githubusercontent.com/fib0618/pool/master/logo_64x64.png",
         "url_png_logo": "https://raw.githubusercontent.com/fib0618/pool/master/logo.png",
-        "location": "Perth, Australia",
+        "location": "Peth, Australia",
         "social": {
             "twitter_handle": "power_cardano",
             "telegram_handle": "power_cardano",
@@ -15,17 +15,14 @@
         },
         "about": {
             "me": "I am Ada's Dad, she is just 8 months old. I'm building this stake pool for my daughter Ada, patiently waiting for the day that she could take over this pool and contributes to the Cardano ecosystem",
+            "server": "Cloud VM for uptime reliability, 4Core | 11.5GB RAM."
         },
         "rss": "http(s) url to valid RSS feed"
     },
-    "my-pool-ids": [
-        "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
-    ],
-    "when-satured-then-recommend": [
-        "",
-        ""
-    ],
-    "telegram-admin-handle": [
-        "power_cardano"
-    ]
+    "my-pool-ids": {
+        "0": "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
+    },
+    "telegram-admin-handle": {
+        "0": "power_cardano"
+    }
 }
