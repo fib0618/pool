@@ -6,7 +6,7 @@
         "location": "Peth, Australia",
         "social": {
             "twitter_handle": "power_cardano",
-            "telegram_handle": "power_cardano",
+            "telegram_handle": "CardanoStakePoolWorkgroup",
             "facebook_handle": "",
             "youtube_handle": "",
             "twitch_handle": "",
@@ -23,6 +23,6 @@
         "0": "e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa"
     },
     "telegram-admin-handle": {
-        "0": "power_cardano"
+        "0": ""
     }
 }
