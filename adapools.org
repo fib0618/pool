@@ -1,0 +1,43 @@
+<script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$.getJSON('https://js.adapools.org/pools/e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa/summary.json', function(data) { 
+$.each( data.data, function( i, val ) { 
+		a=new Array('tax_fix','pledge','total_stake');
+		if(parseInt(val) > 100000) val=Math.round(parseInt(val)/1000000);
+		if(i=='blocks_lifetime') val=parseInt(val) + parseInt(data.data.blocks_epoch);
+
+		$('#e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_'+i).html(val).text();   
+}); 
+		});
+</script>
+		Variable Tax %: <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_tax_ratio"></span><br>
+		ROA %: <span id="e594951faeec31cb8efc70c3e36887f18f8bc62c718f25ec64807dfa_roa">%</span><br>
+
+
+		
+A = ADA
+B = Byron
+C = Cardano
+D = Daedalus
+E = Epoch
+F = 
+G = Goguen
+H = Hydra 
+I  = Input output
+J = 
+K = KES
+L = 
+M = Marlowe
+N = Nipopows
+O = Ouroborus
+P =  Plutus
+Q = Qeditas
+R = 
+S = Shelley
+T = 
+U =
+V = Voltaire
+W =
+X = 
+Y =
+Z =
