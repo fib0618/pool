@@ -24,7 +24,9 @@
       "description": "KES Periods Remaining",
       "fieldConfig": {
         "defaults": {
-          "custom": {},
+          "custom": {
+            "align": null
+          },
           "mappings": [],
           "thresholds": {
             "mode": "absolute",
@@ -39,11 +41,11 @@
               },
               {
                 "color": "yellow",
-                "value": 30
+                "value": 20
               },
               {
                 "color": "green",
-                "value": 1000
+                "value": 30
               }
             ]
           }
@@ -58,13 +60,13 @@
       },
       "id": 65,
       "options": {
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto",
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "center",
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "mean"
+            "last"
           ],
           "fields": "",
           "values": false
@@ -75,6 +77,7 @@
       "targets": [
         {
           "expr": "cardano_node_Forge_metrics_remainingKESPeriods_int",
+          "instant": true,
           "interval": "",
           "legendFormat": "{{alias}}",
           "refId": "A"
@@ -270,10 +273,10 @@
     {
       "aliasColors": {},
       "bars": false,
-      "cacheTimeout": null,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "prometheus",
+      "datasource": null,
+      "description": "current",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -290,7 +293,7 @@
         "y": 0
       },
       "hiddenSeries": false,
-      "id": 18,
+      "id": 59,
       "legend": {
         "avg": false,
         "current": false,
@@ -302,7 +305,6 @@
       },
       "lines": true,
       "linewidth": 1,
-      "links": [],
       "nullPointMode": "null",
       "percentage": false,
       "pluginVersion": "7.1.2",
@@ -311,7 +313,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "Sky Relay1",
+          "alias": "SKY_Core",
           "color": "#8AB8FF",
           "fillGradient": 10
         }
@@ -321,10 +323,9 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "cardano_node_ChainDB_metrics_density_real * 100",
-          "instant": false,
+          "expr": "cardano_node_metrics_txsInMempool_int",
           "interval": "",
-          "legendFormat": "Sky Relay1",
+          "legendFormat": "SKY_Core",
           "refId": "A"
         }
       ],
@@ -332,7 +333,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Chain Density",
+      "title": "Mempool Transactions",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -1023,10 +1024,10 @@
     {
       "aliasColors": {},
       "bars": false,
+      "cacheTimeout": null,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
-      "description": "current",
+      "datasource": "prometheus",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -1043,7 +1044,7 @@
         "y": 6
       },
       "hiddenSeries": false,
-      "id": 59,
+      "id": 18,
       "legend": {
         "avg": false,
         "current": false,
@@ -1055,6 +1056,7 @@
       },
       "lines": true,
       "linewidth": 1,
+      "links": [],
       "nullPointMode": "null",
       "percentage": false,
       "pluginVersion": "7.1.2",
@@ -1063,7 +1065,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "SKY_Core",
+          "alias": "Sky Relay1",
           "color": "#8AB8FF",
           "fillGradient": 10
         }
@@ -1073,9 +1075,10 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "cardano_node_metrics_txsInMempool_int",
+          "expr": "cardano_node_ChainDB_metrics_density_real * 100",
+          "instant": false,
           "interval": "",
-          "legendFormat": "SKY_Core",
+          "legendFormat": "Sky Relay1",
           "refId": "A"
         }
       ],
@@ -1083,7 +1086,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Mempool Transactions",
+      "title": "Chain Density",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -2652,7 +2655,7 @@
     "list": []
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-24h",
     "to": "now"
   },
   "timepicker": {
@@ -2682,5 +2685,5 @@
   "timezone": "",
   "title": "POWER",
   "uid": "POWER",
-  "version": 3
+  "version": 7
 }
