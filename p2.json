@@ -1,7 +1,7 @@
 {
-"name":"POWER Stake Pool 2",
+"name":"POWER Stake Pool2",
 "ticker":"POWER",
 "description":"Stake with us",
 "homepage":"https://powerstakepool.com",
-"extended":"https://raw.githubusercontent.com/fib0618/pool/master/ext.json"
+"extended":""
 }
