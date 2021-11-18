@@ -1,0 +1,7 @@
+{
+"name":"POWER Stake Pool 1",
+"ticker":"POWER",
+"description":"We provide a top-quality, non-custodial, no lock-up staking service with extra-low fees. Minting blocks and delivering passive income since day one. Trusted by thousands of delegators in the emerging blockchain economy.",
+"homepage":"https://powerstakepool.com",
+"extended":"https://raw.githubusercontent.com/fib0618/pool/master/ext.json"
+}
